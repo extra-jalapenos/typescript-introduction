@@ -1,11 +1,11 @@
-interface person {
+interface Person {
 	readonly id: number,
 	name: string,
 	firstname?: string,
   age: number
 }
 
-let p1: person;
+let p1: Person = new Person();
 p1.name = "Ally";
 p1.age = 30;
 
@@ -17,7 +17,3 @@ interface car {
 interface CarType extends car {
 	model: string;
 }
-
-let test: CarType;
-
-test.
